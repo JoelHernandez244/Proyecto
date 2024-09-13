@@ -24,6 +24,7 @@ namespace Proyecto
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+        //Prueba.
             double sueldo = Double.Parse(txtSueldo.Text);
             double renta;
             txtRenta.Text = "";
