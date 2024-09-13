@@ -55,7 +55,7 @@ namespace Proyecto
             }
             txtRenta.Text = renta.ToString();
             MessageBox.Show("Total a pagar Renta: " + renta, "Salida", MessageBoxButtons.OK);
-
+            //nueva prueba 
         }
     }
 }
