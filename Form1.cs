@@ -14,6 +14,7 @@ namespace Proyecto
     {
         public Form1()
         {
+        //prueba3
             InitializeComponent();
         }
 
