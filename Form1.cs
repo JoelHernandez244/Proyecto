@@ -14,7 +14,7 @@ namespace Proyecto
     {
         public Form1()
         {
-        //prueba3
+       
             InitializeComponent();
         }
 
@@ -25,7 +25,7 @@ namespace Proyecto
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-        //Prueba.
+
             double sueldo = Double.Parse(txtSueldo.Text);
             double renta;
             txtRenta.Text = "";
@@ -55,7 +55,7 @@ namespace Proyecto
             }
             txtRenta.Text = renta.ToString();
             MessageBox.Show("Total a pagar Renta: " + renta, "Salida", MessageBoxButtons.OK);
-            //nueva prueba 
+            
         }
     }
 }
