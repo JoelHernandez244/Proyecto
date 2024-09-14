@@ -18,7 +18,10 @@ namespace Proyecto
             InitializeComponent();
         }
 
-        
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
